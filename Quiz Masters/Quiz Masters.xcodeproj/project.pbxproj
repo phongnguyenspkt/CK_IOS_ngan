@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A67986171B9D96EA000E9B1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67986161B9D96EA000E9B1A /* AppDelegate.swift */; };
+		A67986191B9D96EA000E9B1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67986181B9D96EA000E9B1A /* ViewController.swift */; };
+		A679861C1B9D96EA000E9B1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A679861A1B9D96EA000E9B1A /* Main.storyboard */; };
+		A679861E1B9D96EA000E9B1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A679861D1B9D96EA000E9B1A /* Images.xcassets */; };
+		A67986211B9D96EA000E9B1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A679861F1B9D96EA000E9B1A /* LaunchScreen.xib */; };
+		A679862D1B9D96EA000E9B1A /* Quiz_MastersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A679862C1B9D96EA000E9B1A /* Quiz_MastersTests.swift */; };
+		A67986371B9D9D10000E9B1A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67986361B9D9D10000E9B1A /* SettingsViewController.swift */; };
+		A67986391B9D9D1F000E9B1A /* MultipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67986381B9D9D1E000E9B1A /* MultipleChoiceViewController.swift */; };
+		A679863B1B9D9D2A000E9B1A /* RightOrWrongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A679863A1B9D9D2A000E9B1A /* RightOrWrongViewController.swift */; };
+		A679863D1B9D9D45000E9B1A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A679863C1B9D9D45000E9B1A /* ImageViewController.swift */; };
+		A679863F1B9D9D51000E9B1A /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A679863E1B9D9D51000E9B1A /* InputViewController.swift */; };
+		A679864C1B9DB075000E9B1A /* ipadbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A67986471B9DB075000E9B1A /* ipadbg@2x.png */; };
+		A679864D1B9DB075000E9B1A /* iphone4bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A67986481B9DB075000E9B1A /* iphone4bg@2x.png */; };
+		A679864E1B9DB075000E9B1A /* iphone5bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A67986491B9DB075000E9B1A /* iphone5bg@2x.png */; };
+		A679864F1B9DB075000E9B1A /* iphone6bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A679864A1B9DB075000E9B1A /* iphone6bg@2x.png */; };
+		A67986501B9DB075000E9B1A /* iphone6plusbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A679864B1B9DB075000E9B1A /* iphone6plusbg@2x.png */; };
+		A6F510A11B9F215C0085F099 /* ImageQuiz.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6F5109D1B9F215C0085F099 /* ImageQuiz.plist */; };
+		A6F510A21B9F215C0085F099 /* MultipleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6F5109E1B9F215C0085F099 /* MultipleChoice.plist */; };
+		A6F510A31B9F215C0085F099 /* RightOrWrong.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6F5109F1B9F215C0085F099 /* RightOrWrong.plist */; };
+		A6F510A41B9F215C0085F099 /* SingleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6F510A01B9F215C0085F099 /* SingleChoice.plist */; };
+		A6F510BB1B9F21780085F099 /* amsterdam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510A61B9F21780085F099 /* amsterdam.jpg */; };
+		A6F510BC1B9F21780085F099 /* bigben.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510A71B9F21780085F099 /* bigben.jpg */; };
+		A6F510BD1B9F21780085F099 /* brandenburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510A81B9F21780085F099 /* brandenburg.jpg */; };
+		A6F510BE1B9F21780085F099 /* bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510A91B9F21780085F099 /* bridge.jpg */; };
+		A6F510BF1B9F21780085F099 /* budapest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510AA1B9F21780085F099 /* budapest.jpg */; };
+		A6F510C01B9F21780085F099 /* colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510AB1B9F21780085F099 /* colosseum.jpg */; };
+		A6F510C11B9F21780085F099 /* dubai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510AC1B9F21780085F099 /* dubai.jpg */; };
+		A6F510C21B9F21780085F099 /* hammer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510AD1B9F21780085F099 /* hammer.jpg */; };
+		A6F510C31B9F21780085F099 /* jerusalem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510AE1B9F21780085F099 /* jerusalem.jpg */; };
+		A6F510C41B9F21780085F099 /* louvre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510AF1B9F21780085F099 /* louvre.jpg */; };
+		A6F510C51B9F21780085F099 /* moscow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B01B9F21780085F099 /* moscow.jpg */; };
+		A6F510C61B9F21780085F099 /* munich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B11B9F21780085F099 /* munich.jpg */; };
+		A6F510C71B9F21780085F099 /* newyork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B21B9F21780085F099 /* newyork.jpg */; };
+		A6F510C81B9F21780085F099 /* opera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B31B9F21780085F099 /* opera.jpg */; };
+		A6F510C91B9F21780085F099 /* paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B41B9F21780085F099 /* paris.jpg */; };
+		A6F510CA1B9F21780085F099 /* piazza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B51B9F21780085F099 /* piazza.jpg */; };
+		A6F510CB1B9F21780085F099 /* pisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B61B9F21780085F099 /* pisa.jpg */; };
+		A6F510CC1B9F21780085F099 /* rio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B71B9F21780085F099 /* rio.jpg */; };
+		A6F510CD1B9F21780085F099 /* spaceneedle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B81B9F21780085F099 /* spaceneedle.jpg */; };
+		A6F510CE1B9F21780085F099 /* temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510B91B9F21780085F099 /* temple.jpg */; };
+		A6F510CF1B9F21780085F099 /* vienna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F510BA1B9F21780085F099 /* vienna.jpg */; };
+		A6F510D11B9F219D0085F099 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F510D01B9F219D0085F099 /* Configuration.swift */; };
+		A6F510D71B9F6A0E0085F099 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F510D61B9F6A0E0085F099 /* Extensions.swift */; };
+		A6F510D91B9F6A610085F099 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F510D81B9F6A610085F099 /* Device.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A67986271B9D96EA000E9B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67986091B9D96EA000E9B1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67986101B9D96EA000E9B1A;
+			remoteInfo = "Quiz Masters";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A67986111B9D96EA000E9B1A /* Quiz Masters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz Masters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67986151B9D96EA000E9B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67986161B9D96EA000E9B1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A67986181B9D96EA000E9B1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A679861B1B9D96EA000E9B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A679861D1B9D96EA000E9B1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A67986201B9D96EA000E9B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A67986261B9D96EA000E9B1A /* Quiz MastersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz MastersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A679862B1B9D96EA000E9B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A679862C1B9D96EA000E9B1A /* Quiz_MastersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_MastersTests.swift; sourceTree = "<group>"; };
+		A67986361B9D9D10000E9B1A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A67986381B9D9D1E000E9B1A /* MultipleChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceViewController.swift; sourceTree = "<group>"; };
+		A679863A1B9D9D2A000E9B1A /* RightOrWrongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightOrWrongViewController.swift; sourceTree = "<group>"; };
+		A679863C1B9D9D45000E9B1A /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		A679863E1B9D9D51000E9B1A /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		A67986471B9DB075000E9B1A /* ipadbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadbg@2x.png"; sourceTree = "<group>"; };
+		A67986481B9DB075000E9B1A /* iphone4bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone4bg@2x.png"; sourceTree = "<group>"; };
+		A67986491B9DB075000E9B1A /* iphone5bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone5bg@2x.png"; sourceTree = "<group>"; };
+		A679864A1B9DB075000E9B1A /* iphone6bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone6bg@2x.png"; sourceTree = "<group>"; };
+		A679864B1B9DB075000E9B1A /* iphone6plusbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone6plusbg@2x.png"; sourceTree = "<group>"; };
+		A6F5109D1B9F215C0085F099 /* ImageQuiz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageQuiz.plist; sourceTree = "<group>"; };
+		A6F5109E1B9F215C0085F099 /* MultipleChoice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultipleChoice.plist; sourceTree = "<group>"; };
+		A6F5109F1B9F215C0085F099 /* RightOrWrong.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RightOrWrong.plist; sourceTree = "<group>"; };
+		A6F510A01B9F215C0085F099 /* SingleChoice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SingleChoice.plist; sourceTree = "<group>"; };
+		A6F510A61B9F21780085F099 /* amsterdam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amsterdam.jpg; sourceTree = "<group>"; };
+		A6F510A71B9F21780085F099 /* bigben.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigben.jpg; sourceTree = "<group>"; };
+		A6F510A81B9F21780085F099 /* brandenburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brandenburg.jpg; sourceTree = "<group>"; };
+		A6F510A91B9F21780085F099 /* bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bridge.jpg; sourceTree = "<group>"; };
+		A6F510AA1B9F21780085F099 /* budapest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = budapest.jpg; sourceTree = "<group>"; };
+		A6F510AB1B9F21780085F099 /* colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum.jpg; sourceTree = "<group>"; };
+		A6F510AC1B9F21780085F099 /* dubai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dubai.jpg; sourceTree = "<group>"; };
+		A6F510AD1B9F21780085F099 /* hammer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hammer.jpg; sourceTree = "<group>"; };
+		A6F510AE1B9F21780085F099 /* jerusalem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jerusalem.jpg; sourceTree = "<group>"; };
+		A6F510AF1B9F21780085F099 /* louvre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = louvre.jpg; sourceTree = "<group>"; };
+		A6F510B01B9F21780085F099 /* moscow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moscow.jpg; sourceTree = "<group>"; };
+		A6F510B11B9F21780085F099 /* munich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munich.jpg; sourceTree = "<group>"; };
+		A6F510B21B9F21780085F099 /* newyork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newyork.jpg; sourceTree = "<group>"; };
+		A6F510B31B9F21780085F099 /* opera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = opera.jpg; sourceTree = "<group>"; };
+		A6F510B41B9F21780085F099 /* paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paris.jpg; sourceTree = "<group>"; };
+		A6F510B51B9F21780085F099 /* piazza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piazza.jpg; sourceTree = "<group>"; };
+		A6F510B61B9F21780085F099 /* pisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pisa.jpg; sourceTree = "<group>"; };
+		A6F510B71B9F21780085F099 /* rio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rio.jpg; sourceTree = "<group>"; };
+		A6F510B81B9F21780085F099 /* spaceneedle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaceneedle.jpg; sourceTree = "<group>"; };
+		A6F510B91B9F21780085F099 /* temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temple.jpg; sourceTree = "<group>"; };
+		A6F510BA1B9F21780085F099 /* vienna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vienna.jpg; sourceTree = "<group>"; };
+		A6F510D01B9F219D0085F099 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		A6F510D61B9F6A0E0085F099 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A6F510D81B9F6A610085F099 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A679860E1B9D96EA000E9B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67986231B9D96EA000E9B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A67986081B9D96EA000E9B1A = {
+			isa = PBXGroup;
+			children = (
+				A67986131B9D96EA000E9B1A /* Quiz Masters */,
+				A67986291B9D96EA000E9B1A /* Quiz MastersTests */,
+				A67986121B9D96EA000E9B1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A67986121B9D96EA000E9B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67986111B9D96EA000E9B1A /* Quiz Masters.app */,
+				A67986261B9D96EA000E9B1A /* Quiz MastersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67986131B9D96EA000E9B1A /* Quiz Masters */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5109C1B9F21300085F099 /* Resources */,
+				A67986461B9DB04B000E9B1A /* Images */,
+				A67986161B9D96EA000E9B1A /* AppDelegate.swift */,
+				A67986181B9D96EA000E9B1A /* ViewController.swift */,
+				A679861A1B9D96EA000E9B1A /* Main.storyboard */,
+				A679861D1B9D96EA000E9B1A /* Images.xcassets */,
+				A679861F1B9D96EA000E9B1A /* LaunchScreen.xib */,
+				A67986141B9D96EA000E9B1A /* Supporting Files */,
+				A67986361B9D9D10000E9B1A /* SettingsViewController.swift */,
+				A67986381B9D9D1E000E9B1A /* MultipleChoiceViewController.swift */,
+				A679863A1B9D9D2A000E9B1A /* RightOrWrongViewController.swift */,
+				A679863C1B9D9D45000E9B1A /* ImageViewController.swift */,
+				A679863E1B9D9D51000E9B1A /* InputViewController.swift */,
+				A6F510D01B9F219D0085F099 /* Configuration.swift */,
+				A6F510D61B9F6A0E0085F099 /* Extensions.swift */,
+				A6F510D81B9F6A610085F099 /* Device.swift */,
+			);
+			path = "Quiz Masters";
+			sourceTree = "<group>";
+		};
+		A67986141B9D96EA000E9B1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A67986151B9D96EA000E9B1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A67986291B9D96EA000E9B1A /* Quiz MastersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A679862C1B9D96EA000E9B1A /* Quiz_MastersTests.swift */,
+				A679862A1B9D96EA000E9B1A /* Supporting Files */,
+			);
+			path = "Quiz MastersTests";
+			sourceTree = "<group>";
+		};
+		A679862A1B9D96EA000E9B1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A679862B1B9D96EA000E9B1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A67986461B9DB04B000E9B1A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A6F510A51B9F21780085F099 /* Quiz Images */,
+				A67986471B9DB075000E9B1A /* ipadbg@2x.png */,
+				A67986481B9DB075000E9B1A /* iphone4bg@2x.png */,
+				A67986491B9DB075000E9B1A /* iphone5bg@2x.png */,
+				A679864A1B9DB075000E9B1A /* iphone6bg@2x.png */,
+				A679864B1B9DB075000E9B1A /* iphone6plusbg@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A6F5109C1B9F21300085F099 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5109D1B9F215C0085F099 /* ImageQuiz.plist */,
+				A6F5109E1B9F215C0085F099 /* MultipleChoice.plist */,
+				A6F5109F1B9F215C0085F099 /* RightOrWrong.plist */,
+				A6F510A01B9F215C0085F099 /* SingleChoice.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6F510A51B9F21780085F099 /* Quiz Images */ = {
+			isa = PBXGroup;
+			children = (
+				A6F510A61B9F21780085F099 /* amsterdam.jpg */,
+				A6F510A71B9F21780085F099 /* bigben.jpg */,
+				A6F510A81B9F21780085F099 /* brandenburg.jpg */,
+				A6F510A91B9F21780085F099 /* bridge.jpg */,
+				A6F510AA1B9F21780085F099 /* budapest.jpg */,
+				A6F510AB1B9F21780085F099 /* colosseum.jpg */,
+				A6F510AC1B9F21780085F099 /* dubai.jpg */,
+				A6F510AD1B9F21780085F099 /* hammer.jpg */,
+				A6F510AE1B9F21780085F099 /* jerusalem.jpg */,
+				A6F510AF1B9F21780085F099 /* louvre.jpg */,
+				A6F510B01B9F21780085F099 /* moscow.jpg */,
+				A6F510B11B9F21780085F099 /* munich.jpg */,
+				A6F510B21B9F21780085F099 /* newyork.jpg */,
+				A6F510B31B9F21780085F099 /* opera.jpg */,
+				A6F510B41B9F21780085F099 /* paris.jpg */,
+				A6F510B51B9F21780085F099 /* piazza.jpg */,
+				A6F510B61B9F21780085F099 /* pisa.jpg */,
+				A6F510B71B9F21780085F099 /* rio.jpg */,
+				A6F510B81B9F21780085F099 /* spaceneedle.jpg */,
+				A6F510B91B9F21780085F099 /* temple.jpg */,
+				A6F510BA1B9F21780085F099 /* vienna.jpg */,
+			);
+			path = "Quiz Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67986101B9D96EA000E9B1A /* Quiz Masters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67986301B9D96EA000E9B1A /* Build configuration list for PBXNativeTarget "Quiz Masters" */;
+			buildPhases = (
+				A679860D1B9D96EA000E9B1A /* Sources */,
+				A679860E1B9D96EA000E9B1A /* Frameworks */,
+				A679860F1B9D96EA000E9B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quiz Masters";
+			productName = "Quiz Masters";
+			productReference = A67986111B9D96EA000E9B1A /* Quiz Masters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A67986251B9D96EA000E9B1A /* Quiz MastersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67986331B9D96EA000E9B1A /* Build configuration list for PBXNativeTarget "Quiz MastersTests" */;
+			buildPhases = (
+				A67986221B9D96EA000E9B1A /* Sources */,
+				A67986231B9D96EA000E9B1A /* Frameworks */,
+				A67986241B9D96EA000E9B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67986281B9D96EA000E9B1A /* PBXTargetDependency */,
+			);
+			name = "Quiz MastersTests";
+			productName = "Quiz MastersTests";
+			productReference = A67986261B9D96EA000E9B1A /* Quiz MastersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67986091B9D96EA000E9B1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "RuMe Academy";
+				TargetAttributes = {
+					A67986101B9D96EA000E9B1A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A67986251B9D96EA000E9B1A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A67986101B9D96EA000E9B1A;
+					};
+				};
+			};
+			buildConfigurationList = A679860C1B9D96EA000E9B1A /* Build configuration list for PBXProject "Quiz Masters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A67986081B9D96EA000E9B1A;
+			productRefGroup = A67986121B9D96EA000E9B1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67986101B9D96EA000E9B1A /* Quiz Masters */,
+				A67986251B9D96EA000E9B1A /* Quiz MastersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A679860F1B9D96EA000E9B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F510C21B9F21780085F099 /* hammer.jpg in Resources */,
+				A6F510C51B9F21780085F099 /* moscow.jpg in Resources */,
+				A679864C1B9DB075000E9B1A /* ipadbg@2x.png in Resources */,
+				A6F510A21B9F215C0085F099 /* MultipleChoice.plist in Resources */,
+				A6F510BF1B9F21780085F099 /* budapest.jpg in Resources */,
+				A6F510CF1B9F21780085F099 /* vienna.jpg in Resources */,
+				A679861C1B9D96EA000E9B1A /* Main.storyboard in Resources */,
+				A6F510C81B9F21780085F099 /* opera.jpg in Resources */,
+				A6F510A31B9F215C0085F099 /* RightOrWrong.plist in Resources */,
+				A6F510CE1B9F21780085F099 /* temple.jpg in Resources */,
+				A6F510A11B9F215C0085F099 /* ImageQuiz.plist in Resources */,
+				A6F510CC1B9F21780085F099 /* rio.jpg in Resources */,
+				A6F510C71B9F21780085F099 /* newyork.jpg in Resources */,
+				A6F510C61B9F21780085F099 /* munich.jpg in Resources */,
+				A6F510BB1B9F21780085F099 /* amsterdam.jpg in Resources */,
+				A67986501B9DB075000E9B1A /* iphone6plusbg@2x.png in Resources */,
+				A6F510BE1B9F21780085F099 /* bridge.jpg in Resources */,
+				A6F510BD1B9F21780085F099 /* brandenburg.jpg in Resources */,
+				A6F510CB1B9F21780085F099 /* pisa.jpg in Resources */,
+				A6F510CA1B9F21780085F099 /* piazza.jpg in Resources */,
+				A679864F1B9DB075000E9B1A /* iphone6bg@2x.png in Resources */,
+				A679864D1B9DB075000E9B1A /* iphone4bg@2x.png in Resources */,
+				A67986211B9D96EA000E9B1A /* LaunchScreen.xib in Resources */,
+				A6F510C01B9F21780085F099 /* colosseum.jpg in Resources */,
+				A6F510CD1B9F21780085F099 /* spaceneedle.jpg in Resources */,
+				A679861E1B9D96EA000E9B1A /* Images.xcassets in Resources */,
+				A679864E1B9DB075000E9B1A /* iphone5bg@2x.png in Resources */,
+				A6F510C11B9F21780085F099 /* dubai.jpg in Resources */,
+				A6F510BC1B9F21780085F099 /* bigben.jpg in Resources */,
+				A6F510C41B9F21780085F099 /* louvre.jpg in Resources */,
+				A6F510C31B9F21780085F099 /* jerusalem.jpg in Resources */,
+				A6F510A41B9F215C0085F099 /* SingleChoice.plist in Resources */,
+				A6F510C91B9F21780085F099 /* paris.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67986241B9D96EA000E9B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A679860D1B9D96EA000E9B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67986191B9D96EA000E9B1A /* ViewController.swift in Sources */,
+				A6F510D71B9F6A0E0085F099 /* Extensions.swift in Sources */,
+				A67986171B9D96EA000E9B1A /* AppDelegate.swift in Sources */,
+				A67986371B9D9D10000E9B1A /* SettingsViewController.swift in Sources */,
+				A679863F1B9D9D51000E9B1A /* InputViewController.swift in Sources */,
+				A67986391B9D9D1F000E9B1A /* MultipleChoiceViewController.swift in Sources */,
+				A679863D1B9D9D45000E9B1A /* ImageViewController.swift in Sources */,
+				A6F510D11B9F219D0085F099 /* Configuration.swift in Sources */,
+				A679863B1B9D9D2A000E9B1A /* RightOrWrongViewController.swift in Sources */,
+				A6F510D91B9F6A610085F099 /* Device.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67986221B9D96EA000E9B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A679862D1B9D96EA000E9B1A /* Quiz_MastersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A67986281B9D96EA000E9B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A67986101B9D96EA000E9B1A /* Quiz Masters */;
+			targetProxy = A67986271B9D96EA000E9B1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A679861A1B9D96EA000E9B1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A679861B1B9D96EA000E9B1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A679861F1B9D96EA000E9B1A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67986201B9D96EA000E9B1A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A679862E1B9D96EA000E9B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A679862F1B9D96EA000E9B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A67986311B9D96EA000E9B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quiz Masters/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A67986321B9D96EA000E9B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quiz Masters/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A67986341B9D96EA000E9B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quiz MastersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz Masters.app/Quiz Masters";
+			};
+			name = Debug;
+		};
+		A67986351B9D96EA000E9B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quiz MastersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz Masters.app/Quiz Masters";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A679860C1B9D96EA000E9B1A /* Build configuration list for PBXProject "Quiz Masters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A679862E1B9D96EA000E9B1A /* Debug */,
+				A679862F1B9D96EA000E9B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67986301B9D96EA000E9B1A /* Build configuration list for PBXNativeTarget "Quiz Masters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67986311B9D96EA000E9B1A /* Debug */,
+				A67986321B9D96EA000E9B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67986331B9D96EA000E9B1A /* Build configuration list for PBXNativeTarget "Quiz MastersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67986341B9D96EA000E9B1A /* Debug */,
+				A67986351B9D96EA000E9B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67986091B9D96EA000E9B1A /* Project object */;
+}

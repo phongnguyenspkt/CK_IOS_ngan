@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+    <array>
+            <dict>
+                <key>Question</key>
+                <string>What color is a tomato?</string>
+                <key>CorrectAnswer</key>
+                <string>Red</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>What is the first name of Shakespeare?</string>
+                <key>CorrectAnswer</key>
+                <string>William</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>In which city is Notre Dame located?</string>
+                <key>CorrectAnswer</key>
+                <string>Paris</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>What is the currency of Japan?</string>
+                <key>CorrectAnswer</key>
+                <string>Yen</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>Diamonds are made from highly compressed...?</string>
+                <key>CorrectAnswer</key>
+                <string>Coal</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>What is President Obamas first name?</string>
+                <key>CorrectAnswer</key>
+                <string>Barack</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>What is the capital of England?</string>
+                <key>CorrectAnswer</key>
+                <string>London</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>How many states are in the United States of America?</string>
+                <key>CorrectAnswer</key>
+                <string>50</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>Who is the quarterback of the New England Patriots?</string>
+                <key>CorrectAnswer</key>
+                <string>Tom Brady</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>How many metres are in 1 kilometre?</string>
+                <key>CorrectAnswer</key>
+                <string>1000</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>Berlin is the capital of...?</string>
+                <key>CorrectAnswer</key>
+                <string>Germany</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>Who won the 2014 soccer world championship?</string>
+                <key>CorrectAnswer</key>
+                <string>Germany</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>How many days are in a normal year?</string>
+                <key>CorrectAnswer</key>
+                <string>365</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>How many seconds are in 1 hour?</string>
+                <key>CorrectAnswer</key>
+                <string>3600</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>What was scientist Einsteins first name?</string>
+                <key>CorrectAnswer</key>
+                <string>Albert</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>Which country is the southern neighbour of the United States of America?</string>
+                <key>CorrectAnswer</key>
+                <string>Mexico</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>Who is Harry Potters best friend?</string>
+                <key>CorrectAnswer</key>
+                <string>Ron</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>What is the nickname of Thor Bjornsons character in Game of Thrones?</string>
+                <key>CorrectAnswer</key>
+                <string>The Mountain</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>What animal is in the MGM Logo?</string>
+                <key>CorrectAnswer</key>
+                <string>Lion</string>
+            </dict>
+            <dict>
+                <key>Question</key>
+                <string>What is the worlds longest river?</string>
+                <key>CorrectAnswer</key>
+                <string>Nile</string>
+            </dict>
+    </array>
+</dict>
+</plist>

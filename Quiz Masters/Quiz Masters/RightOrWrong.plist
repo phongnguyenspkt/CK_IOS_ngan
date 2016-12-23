@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>Question</key>
+			<string>Tokyo is the most populated city in the world</string>
+			<key>CorrectAnswer</key>
+			<string>Right</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Germany is currently the World&apos;s Champion in Soccer</string>
+			<key>CorrectAnswer</key>
+			<string>Right</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Leonardo DiCaprio has won 2 Academy Awards</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Game of Thrones is a children&apos;s game</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Angela Merkel was born in Poland</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Miley Cyrus was born in 1992</string>
+			<key>CorrectAnswer</key>
+			<string>Right</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Dallas Mavericks have never won a NBA Championship</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Leonardo DiCaprio has won 2 Academy Awards</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Queen of England&apos;s real name is Catherine</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Super Mario&apos;s brother is named Leonardo</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Floyd Mayweather JR is the highest paid athlete in the world</string>
+			<key>CorrectAnswer</key>
+			<string>Right</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>There are 7 Books in the Harry Potter Series</string>
+			<key>CorrectAnswer</key>
+			<string>Right</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The first episode of The Simpsons premiered in 1989</string>
+			<key>CorrectAnswer</key>
+			<string>Right</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Canada is the third largest country in the world</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>India has the largest population in the world</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Frank Sinatra&apos;s real name was Francesco Sinatroni</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>There are more sheep in New Zealand than people</string>
+			<key>CorrectAnswer</key>
+			<string>Right</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Vin Diesel&apos;s real name is actually Mark Sinclair</string>
+			<key>CorrectAnswer</key>
+			<string>Right</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Breaking Bad has a total of 7 Seasons</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Statue of Liberty was a gift from Germany</string>
+			<key>CorrectAnswer</key>
+			<string>Wrong</string>
+		</dict>
+	</array>
+</dict>
+</plist>
